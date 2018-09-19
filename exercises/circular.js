@@ -6,7 +6,9 @@
  *
  * @notions Data-Structures, Get, Set
  */
-
+const circular = {
+    circular : 'circular'
+}
 // Your code :
 
 //* Begin of tests

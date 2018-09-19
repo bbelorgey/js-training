@@ -9,7 +9,31 @@
  */
 
 // Your code :
-
+function multiply(arg1,arg2){
+    if(arg1===0 || arg2===0){
+        return 0
+    } 
+    let resultat=0
+    let nb1=arg1
+    let nb2=arg2
+    if(arg1<0){
+        nb1=-nb1
+    }
+    if(arg2<0){
+        nb2=-nb2
+    }
+    while(nb2>0){
+        resultat+=nb1
+        nb2--
+    }
+    if(arg1<0 && arg2<0){
+        return resultat
+    }
+    if(arg1>0 && arg2>0){
+        return resultat       
+    }
+    return -resultat
+}
 //* Begin of tests
 const assert = require('assert')
 

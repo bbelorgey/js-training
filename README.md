@@ -1,13 +1,13 @@
-[![Build Status](https://travis-ci.org/nan-academy/js-training.svg?branch=master)](https://travis-ci.org/nan-academy/js-training)
+[![Build Status](https://travis-ci.com/bbelorgey/js-training.svg?branch=master)](https://travis-ci.com/bbelorgey/js-training)
 ## Setup
-First, [**fork**](https://github.com/nan-academy/js-training/fork?fragment=1) this repository.
+First, [**fork**](https://github.com/bbelorgey/js-training/fork?fragment=1) this repository.
 ### globals dependencies
 install globaly node on your computer
 
 ```sh
 # download your code locally
-git clone https://github.com/GITHUB_LOGIN/js-training.git
-# don't forget to remplace GITHUB_LOGIN by your github login
+git clone https://github.com/bbelorgey/js-training.git
+# don't forget to remplace bbelorgey by your github login
 
 # change working directory to the newly cloned repository
 cd js-training
@@ -22,7 +22,7 @@ You may either use our test tool to check all files
 # run the test runner
 ./tester
 ```
-![output-tester](https://github.com/nan-academy/js-training/blob/master/img/output-tester.png)
+![output-tester](https://github.com/bbelorgey/js-training/blob/master/img/output-tester.png)
 
 Or you can run only a some tests with
 ```sh
@@ -34,7 +34,7 @@ Or you can test files one by one with node
 # open a file in node
 node exercises/primitives
 ```
-![output-node](https://github.com/nan-academy/js-training/blob/master/img/output-node.png)
+![output-node](https://github.com/bbelorgey/js-training/blob/master/img/output-node.png)
 
 *our tester may include bugs, feel free to check the code and fix it*
 
@@ -55,18 +55,18 @@ vim primitives.js
 # I can not be held responsable if you use anything else.
 ```
 
-![where-to-code](https://github.com/nan-academy/js-training/blob/master/img/where-to-code.png)
+![where-to-code](https://github.com/bbelorgey/js-training/blob/master/img/where-to-code.png)
 
 ## Get Help !
 We maintain an example based code documentation
 
 All you need to know to solve those exercises is described in them.
-- [Primitive and Operators](https://github.com/nan-academy/js-training/blob/master/examples/primitive-and-operators.js) [[screencast](https://scrimba.com/c/cwyaEAd)]
-- [Variables](https://github.com/nan-academy/js-training/blob/master/examples/variables.js) [[screencast](https://scrimba.com/c/cLrBKA8)]
-- [Data-Structures](https://github.com/nan-academy/js-training/blob/master/examples/data-structures.js) [[screencast](https://scrimba.com/c/c9Py3sG)]
-- [Get](https://github.com/nan-academy/js-training/blob/master/examples/get.js) [[screencast](https://scrimba.com/c/cvzg2Tq)]
-- [Set](https://github.com/nan-academy/js-training/blob/master/examples/set.js) [[screencast](https://scrimba.com/c/cbWrGcg)]
-- ...[full list](https://github.com/nan-academy/js-training/tree/master/examples)
+- [Primitive and Operators](https://github.com/bbelorgey/js-training/blob/master/examples/primitive-and-operators.js) [[screencast](https://scrimba.com/c/cwyaEAd)]
+- [Variables](https://github.com/bbelorgey/js-training/blob/master/examples/variables.js) [[screencast](https://scrimba.com/c/cLrBKA8)]
+- [Data-Structures](https://github.com/bbelorgey/js-training/blob/master/examples/data-structures.js) [[screencast](https://scrimba.com/c/c9Py3sG)]
+- [Get](https://github.com/bbelorgey/js-training/blob/master/examples/get.js) [[screencast](https://scrimba.com/c/cvzg2Tq)]
+- [Set](https://github.com/bbelorgey/js-training/blob/master/examples/set.js) [[screencast](https://scrimba.com/c/cbWrGcg)]
+- ...[full list](https://github.com/bbelorgey/js-training/tree/master/examples)
 
 And we also made you a currated list of all the most usefull methods :
 
@@ -148,25 +148,25 @@ git merge pull push branch checkout origin master stash pop
 ```
 
 ## Test Style
-We recommand to use [`editorconfig`](http://editorconfig.org/#download) to
+We recommand to use [`editorconfig`](http://editorconfig.com/#download) to
 auto-config your editor to match the coding style
 
 We also made an `.eslint` rule to help you formating your code.
 
-You may want to use [`eslint`](https://eslint.org/) and [`prettier-eslint`](https://github.com/prettier/prettier-eslint) for painless application of
+You may want to use [`eslint`](https://eslint.com/) and [`prettier-eslint`](https://github.com/prettier/prettier-eslint) for painless application of
 the style
 
 ## Automated test
-We recommand to use [Travis](https://travis-ci.org) to automatise the testing phase, allow this repo and add this code in your README
-`[![Build Status](https://travis-ci.org/GITHUB_LOGIN/js-training.svg?branch=master)](https://travis-ci.org/GITHUB_LOGIN/js-training)`
-by remplacing GITHUB_LOGIN by your github login
+We recommand to use [Travis](https://travis-ci.com) to automatise the testing phase, allow this repo and add this code in your README
+`[![Build Status](https://travis-ci.com/bbelorgey/js-training.svg?branch=master)](https://travis-ci.com/bbelorgey/js-training)`
+by remplacing bbelorgey by your github login
 
 ## Contribute
 We greatly recommand you to add your own tests to this list
 
 - add your test file *(ex: `exercises/my-test.js`)*
 - edit `package.json` and add `"my-test"` to the `"tests"` array with the syntax `{"tag": X, "name": NAME}` where you replace the tag (x) and the name (NAME)
-- make a pull request !`https://github.com/nan-academy/js-training/compare/master...GITHUB_LOGIN:master`
+- make a pull request !`https://github.com/bbelorgey/js-training/compare/master...bbelorgey:master`
 
-*All the tests must be written using [assert](https://nodejs.org/api/assert.html)
+*All the tests must be written using [assert](https://nodejs.com/api/assert.html)
 for `./tester` to work properly.*
