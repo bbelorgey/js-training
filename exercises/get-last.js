@@ -6,7 +6,9 @@
  *
  * @notions Data-Structures, Get
  */
-
+function getLast(arg){
+    return arg[arg.length-1]
+}
 // Your code :
 
 //* Begin of tests

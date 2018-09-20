@@ -6,7 +6,9 @@
  *
  * @notions Functions, Data-Structures, Get
  */
-
+function get(arg){
+  return sourceObject[arg]
+}
 // Provided code :
 const sourceObject = {
   num: 42,
